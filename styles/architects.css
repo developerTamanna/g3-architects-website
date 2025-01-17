@@ -33,6 +33,7 @@ border: none;
 main{
     max-width: 1440px;
     margin: 0px auto;
+    width: 80%;
 }
 main > section{
     margin-top: 130px;
@@ -188,10 +189,9 @@ margin-top: 24px;
   footer{
     text-align: center;
     padding: 39px 310px 39px 310px;
-    max-width: 1440px;
     background-color: #FFF4E7;
     margin-top: 130px;
-    font-size: 1.8rem;
+    font-size: 1rem;
     align-items: center;
   }
 
@@ -204,6 +204,9 @@ margin-top: 24px;
     } 
     .team-img-container{
         grid-template-columns: repeat(1, 1fr);
+    }
+    main{
+        width: 100%;
     }
     main > section{
         margin-top: 60px;
@@ -230,11 +233,14 @@ margin-top: 24px;
         margin-top: 20px;
     }
     footer{
-        padding: 0px;
+        padding: 10px;
     }
 }
 /* medium size device */
 @media screen and (min-width:576px) and (max-width:992px) {
+    main{
+        width: 100%;
+    }
     .teams{
         flex-direction: column;
         margin-left: 50px auto;
